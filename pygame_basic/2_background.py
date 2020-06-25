@@ -12,7 +12,7 @@ pygame.display.set_caption("오락실 게임")  # 게임 이름
 
 # 배경 이미지 불러오기
 background = pygame.image.load(
-    "/home/donghyuk/바탕화면/Python/PyShootingGame/pygame_basic/background.png")
+    "/Users/hyuk/Desktop/MiniGame2/pygame_basic/background.png")
 
 # 이벤트 루프
 running = True  # 게임이 진행중인가?

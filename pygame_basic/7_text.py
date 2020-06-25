@@ -15,11 +15,11 @@ clock = pygame.time.Clock()
 
 # 배경 이미지 불러오기
 background = pygame.image.load(
-    "/home/donghyuk/바탕화면/Python/PyShootingGame/pygame_basic/background.png")
+    "/Users/hyuk/Desktop/MiniGame2/pygame_basic/background.png")
 
 # 캐릭터(스프라이트) 불러오기
 character = pygame.image.load(
-    "/home/donghyuk/바탕화면/Python/PyShootingGame/pygame_basic/character.png")
+    "/Users/hyuk/Desktop/MiniGame2/pygame_basic/character.png")
 character_size = character.get_rect().size  # 이미지의 크기를 구해옴
 character_width = character_size[0]  # 캐릭터의 가로 크기
 character_height = character_size[1]  # 캐릭터의 세로 크기
@@ -33,7 +33,7 @@ to_y = 0
 
 # 적  enemy 캐릭터
 enemy = pygame.image.load(
-    "/home/donghyuk/바탕화면/Python/PyShootingGame/pygame_basic/enemy.png")
+    "/Users/hyuk/Desktop/MiniGame2/pygame_basic/enemy.png")
 enemy_size = enemy.get_rect().size  # 이미지의 크기를 구해옴
 enemy_width = enemy_size[0]  # 캐릭터의 가로 크기
 enemy_height = enemy_size[1]  # 캐릭터의 세로 크기
